@@ -1,16 +1,43 @@
-# appcertificazioni
+# 📱 Certificazione
 
-A new Flutter project.
+Certificazione è un'app Flutter per la gestione e il monitoraggio dei processi di certificazione aziendale. Utilizza [Supabase](https://supabase.com) come backend-as-a-service per autenticazione, database PostgreSQL e API real-time.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Funzionalità principali
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 Autenticazione email/password
+- 📄 Creazione e gestione delle certificazioni
+- 🗂️ Associazione utenti e documenti
+- 📤 Upload documenti (tramite Supabase Storage)
+- 🕒 Cronologia e stato delle certificazioni
+- 📲 Cross-platform: Android, iOS, Web
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧰 Stack Tecnologico
+
+| Tecnologia    | Descrizione                         |
+|---------------|-------------------------------------|
+| Flutter       | Framework UI per mobile/web         |
+| Dart          | Linguaggio di programmazione        |
+| Supabase      | Backend open-source (PostgreSQL)    |
+| Supabase Auth | Gestione login e sessioni           |
+| Supabase DB   | Archiviazione dati certificazioni   |
+| Supabase Storage | Upload e gestione documenti     |
+
+---
+
+## 📦 Setup progetto
+
+### 🔧 Prerequisiti
+
+- [Flutter](https://docs.flutter.dev/get-started/install)
+- Account [Supabase](https://app.supabase.com)
+- Editor come VS Code o Android Studio
+
+### 🛠️ Clona il repository
+
+```bash
+git clone https://github.com/tuo-utente/certificazione.git
+cd certificazione
